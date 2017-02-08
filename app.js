@@ -47,7 +47,7 @@ mongoose.Promise = global.Promise;
 
 
 // For deployment purposes uncomment this line:
-mongoose.connect(process.env.MONGOLAB_PUCE_URI ||'mongodb://localhost/beers');
+mongoose.connect(process.env.MONGOLAB_GREEN_URI ||'mongodb://localhost/beers');
 
 
 
@@ -242,7 +242,7 @@ const passportConfig = require('./config/passport');
  * Connect to MongoDB.
  */
 mongoose.Promise = global.Promise;
-mongoose.createConnection(process.env.MONGOLAB_YELLOW_URI || process.env.MONGOLAB_URI);
+mongoose.createConnection(process.env.MONGOLAB_GREEN_URI || process.env.MONGOLAB_URI);
 mongoose.connection.on('error', () => {
   console.log('%s MongoDB connection error. Please make sure MongoDB is running.', chalk.red('✗'));
   process.exit();

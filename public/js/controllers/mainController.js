@@ -12,7 +12,7 @@ app.controller('MainCtrl', ['$scope','beerFactory', function($scope, beerFactory
       image:$scope.image,
       rating:0
     }
-    debugger;
+    
    // $scope.beerArray.push(beer);
    beerFactory.create(beer);
    console.log(beer)

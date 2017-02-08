@@ -16,7 +16,6 @@ app.factory('beerFactory',function ($http) {
   }
 
   beerService.getAll = function () {
-    debugger;
     return $http.get('/beers').then(function (data) {
     // this copies the response posts to the client side
     // 'beers' under 'beerService'

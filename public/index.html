@@ -156,16 +156,7 @@
                         
 
                         <div class="form-group">
-                          <input type="text" class="form-control submissionfield" placeholder="Title" ng-model="name" required></input>
-                        </div>
-
-
-                        <div class="form-group">
                           <input align="left" type="text" class="form-control submissionfieldcomment" placeholder="Comment" ng-model="style" required></input>
-                        </div>
-
-                        <div class="form-group">
-                          <input type="text" class="form-control submissionfield" placeholder="Your Name" ng-model="abv" required></input>
                         </div>
 
                         <div class="form-group">
@@ -189,7 +180,7 @@
         <div class="col-md-6 col-md-offset-3">
                 
                <div ng-repeat='list in beerArray.slice().reverse() track by $index'>
-            <div class="panel panel-default">
+            <div class="pointer panel panel-default">
             
               <a class="panel-heading" ui-sref='beer({id: list._id})'>
                 {{list.name}}</a>
@@ -207,7 +198,7 @@
 
               Rating: {{list.rating}} 
 
-              <button ng-click='increment($index)'>Increase Rating</button>
+            <!--   <button ng-click='increment($index)'>Increase Rating</button> -->
 
 <!-- 
 If you want to allow users to delete specific memes - unlikely
@@ -281,6 +272,18 @@ any unwanted posts through your db in heroku - research -->
 
    </div>
  </div>
+
+
+<br>
+<br>
+<br>
+  <br>
+  <br>
+
+
+     
+   <div ui-view></div>
+ 
 
 
  <!-- Contact Section -->

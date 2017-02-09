@@ -242,13 +242,6 @@ const passportConfig = require('./config/passport');
 /**
  * Connect to MongoDB.
  */
-mongoose.Promise = global.Promise;
-mongoose.createConnection(process.env.MONGOLAB_GREEN_URI || process.env.MONGOLAB_URI);
-mongoose.connection.on('error', () => {
-  console.log('%s MongoDB connection error. Please make sure MongoDB is running.', chalk.red('✗'));
-  process.exit();
-});
-
 /**
  * Express configuration.
  */

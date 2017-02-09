@@ -128,6 +128,8 @@
 
 
 
+
+
     <div ng-controller="MainCtrl">
 
 
@@ -171,14 +173,13 @@
 
                  
 
-    <div class="row">    
-              
+  
+
         <div class="col-md-6 col-md-offset-3">
                 
                <div ng-repeat='list in beerArray.slice().reverse() track by $index'>
-           
-               <div class="giantpost pic col-md-3 panel panel-default">
-               
+            <div class="panel panel-default">
+            
               <a class="panel-heading" ui-sref='beer({id: list._id})'>
                 {{list.name}}</a>
               <div class="panel-body" ui-sref='beer({id: list._id})'>
@@ -188,33 +189,101 @@
               <div>
               <img ui-sref='beer({id: list._id})' class="image-beer" ng-src="{{list.image}}">
               </div>
+              
 
-              </div>
-              <!-- 
-               Post By: {{list.abv}} 
+             <!--  Post By: {{list.abv}}
               <br>
-              <br>
-
-              Rating: {{list.rating}} 
- -->
-            <!--   <button ng-click='increment($index)'>Increase Rating</button> -->
-
+              <br> -->
 <!-- 
-If you want to allow users to delete specific memes - unlikely
-I think at this point, it would be wiser to just delete
-any unwanted posts through your db in heroku - research -->
-             <!--  <button ng-click='removeBeer($index)'>
-                <i class="fa fa-trash" aria-hidden="true"></i>
-              </button> -->
+              Rating: {{list.rating}} 
 
+              <button ng-click='increment($index)'>Increase Rating</button>
+
+ -->
+<!-- If you want to allow users to delete specific memes - unlikely
+I think at this point, it would be wiser to just delete
+any unwanted posts through your db in heroku - research 
+ -->             <!--  <button ng-click='removeBeer($index)'>
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+ -->
             </div>
           </div>
 
+
+          <!-- Input form for new blog post -->
+
+        
+             <!--  <div class="page-header">
+              </div> -->
+
+              <!-- render beers here -->
       </div>
-   
 
 
 
+  <div class="col-md-6 col-md-offset-3">
+                
+            <div class="panel panel-default">
+              <h3 class="articleteasers">Tinder and The Loss of True Intimacy</h2>
+              <br>
+              <img src="img/tinder2.PNG" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <br>
+              <p><code>The aim of this article is to carefully examine dating app culture, and debate whether this new culture is conducive or destructive to finding true love.</code> 
+              </p>
+              <div
+                class="fb-like"
+                data-share="true"
+                data-width="450"
+                data-show-faces="true">
+              </div>
+       </div>
+       </div>
+
+
+          <!-- New Facebook Article -->
+ 
+                
+            <div class="panel panel-default">
+ 
+          
+              <h3 class="articleteasers">BlockBuster's Demise and Netflix's Rise</h3>
+              <br>
+              <img src="img/netflix.jpg" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <br>
+              <p><code>How did BlockBuster, the top dog of the post-theater movie industry, miss the oppurtunity to purchase Netflix? Luckily for Reed Hasting, Netflix Founder, the sleeping giant was simply too busy taking care of other matters.</code> 
+              </p>
+            </div>
+     
+
+          <!-- ENd of Facebook Article Teaser -->
+
+
+
+            <div class="panel panel-default">
+               <a href="blog/facebook/index.html" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <h3 class="articleteasers">Did Facebook Rip Off It's Logo From Shrek?</h3>
+              <br>
+              <img src="img/shrek2.PNG" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <br>
+              <p><code>After watching the movie again last night, I was amazed to see how many times the Facebook logo appears in the original Shrek film! The following images are not photo-shopped.</code>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        </div>
   
 
  <!-- Contact Section -->

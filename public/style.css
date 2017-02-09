@@ -1,5 +1,19 @@
 /*Snow animation*/
 
+
+
+/*#inner {
+    width: 50%;
+    margin: 0 auto; 
+}*/
+
+.inner {
+    display: table;
+    margin: 0 auto;
+}
+
+
+
 .bigpost{
   background-color: white;
 }

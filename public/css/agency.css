@@ -8,9 +8,12 @@
 /*text color of articl headings*/
 
 .panel img {
-
   width: 100%;
+  cursor: pointer; 
+  cursor: hand;
 }
+
+
 
 .articleteasers {
   color: orange;

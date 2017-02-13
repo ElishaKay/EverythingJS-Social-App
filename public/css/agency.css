@@ -7,10 +7,9 @@
 
 /*text color of articl headings*/
 
-.well p img {
-    width: 70px; /* or whatever width you want. */
-     max-width:70px; /* or whatever width you want. */
-     display: inline-block;
+.panel img {
+
+  width: 100%;
 }
 
 .articleteasers {

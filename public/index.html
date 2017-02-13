@@ -173,11 +173,10 @@
 
                  
 
-  
-
-        <div class="col-md-6 col-md-offset-3">
+   <div class="col-md-6 col-md-offset-3">
                 
-               <div ng-repeat='list in beerArray.slice().reverse() track by $index'>
+         <div ng-repeat='list in beerArray.slice().reverse() track by $index'>
+      
             <div class="panel panel-default">
             
               <a class="panel-heading" ui-sref='beer({id: list._id})'>
@@ -203,10 +202,10 @@
 <!-- If you want to allow users to delete specific memes - unlikely
 I think at this point, it would be wiser to just delete
 any unwanted posts through your db in heroku - research 
- -->             <!--  <button ng-click='removeBeer($index)'>
+ -->              <button ng-click='removeBeer($index)'>
                 <i class="fa fa-trash" aria-hidden="true"></i>
               </button>
- -->
+
             </div>
           </div>
 
@@ -225,14 +224,14 @@ any unwanted posts through your db in heroku - research
   <div class="col-md-6 col-md-offset-3">
                 
            <div class="panel panel-default">
-           <a href="blog/blockbusterarticle/index.html" class="portfolio-link" data-toggle="modal">
+           <a href="blog/tinder/index.html" class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                  
                 </div>
               </div>
 
-              
+
               <h3 class="articleteasers">Tinder and The Loss of True Intimacy</h2>
               <br>
               <img src="img/tinder2.PNG" class="img-responsive" alt="">

@@ -9,21 +9,12 @@ Screenshots:
 
 
 
-- [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Obtaining API Keys](#obtaining-api-keys)
 - [Deployment with Heroku](#deployment)
 - [License](#license)
 
-
-Features
---------
-
-- Angular 2
-- Spotify API
-- Search
-- Auto-Suggest (Mid-Typing)
 
 
 Prerequisites

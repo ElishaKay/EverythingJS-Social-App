@@ -1,5 +1,4 @@
-Welcome friends to the Angular 2 App that taps into the power of the Spotify API to help you listen to ad-free albums of your favorite bands.
-
+Welcome friends to Everuthing JS Social App.
 
 The project is a trimmed-down version of a wonderful repo found here: https://github.com/sahat/hackathon-starter
 

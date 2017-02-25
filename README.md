@@ -1,4 +1,5 @@
-Welcome friends to the Github Repo with 6 User Login Options.
+Welcome friends to the Angular 2 App that taps into the power of the Spotify API to help you listen to ad-free albums of your favorite bands.
+
 
 The project is a trimmed-down version of a wonderful repo found here: https://github.com/sahat/hackathon-starter
 
@@ -6,48 +7,37 @@ Screenshots:
 
 <img src="signin.png">
 
-LinkedIn OAuth:
-
-<img src="linkedin-auth.png">
-
-Google OAuth:
-
-<img src="google.png">
-
-FB User Page (once logged in):
-
-<img src="fbpage.png">
-
-LinkedIn User Page (once logged in):
-
-<img src="linkedinpage.png">
 
 
 - [Features](#features)
+- [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Obtaining API Keys](#obtaining-api-keys)
 - [Deployment with Heroku](#deployment)
 - [License](#license)
 
+
 Features
 --------
 
-- **Local Authentication** using Email and Password
-- **OAuth 1.0a Authentication** via Twitter
-- **OAuth 2.0 Authentication** via Facebook, Google, GitHub, LinkedIn, Instagram
-- Flash notifications
-- MVC Project Structure
-- Node.js clusters support
-- Contact Form (powered by Mailgun, Sendgrid or Mandrill)
-- **Account Management**
- - Gravatar
- - Profile Details
- - Change Password
- - Forgot Password
- - Reset Password
- - Link multiple OAuth strategies to one account
- - Delete Account
-- CSRF protection
+- Angular 2
+- Spotify API
+- Search
+- Auto-Suggest (Mid-Typing)
+
+
+Prerequisites
+--------
+
+Node.js and npm are essential to Angular development. 
+    
+<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
+Get it now</a> if it's not already installed on your machine.
+ 
+**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
+by running `node -v` and `npm -v` in a terminal/console window.
+Older versions produce errors.
+
 
 Getting Started
 ---------------
